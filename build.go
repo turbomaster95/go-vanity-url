@@ -88,4 +88,21 @@ func main() {
 			return
 		}
 	}
+	t, err = template.ParseFiles("index.tmpl")
+	if err != nil {
+		fmt.Errorf("%s\n", err)
+		return
+	}
+	var page bytes.Buffer
+	if err := t.Execute(&page, packages); err != nil {
+		fmt.Errorf("%s\n", err)
+		return
+	}
+
+	pkgFile := filepath.Join("public", "index.html")
+	if err := ioutil.WriteFile(pkgFile, page.Bytes(), 0755); err != nil {
+		fmt.Errorf("%s\n", err)
+		return
+	}
+
 }

@@ -1,67 +1,67 @@
-[[package]]
+[[Package]]
 path="/monster-id"
 repo="https://github.com/techknowlogick/go-monsterID.git"
 packages=[]
 url="https://github.com/techknowlogick/go-monsterID"
 name="go-monsterID"
 
-[[package]]
+[[Package]]
 path="/wavatars"
 repo="https://github.com/techknowlogick/go-wavatars.git"
 packages=[]
 url="https://github.com/techknowlogick/go-wavatars"
 name="go-wavatars"
 
-[[package]]
+[[Package]]
 path="/retricon"
 repo="https://github.com/techknowlogick/go-retricon.git"
 packages=[]
 url="https://github.com/techknowlogick/go-retricon"
 name="go-retricon"
 
-[[package]]
+[[Package]]
 path="/mysteryperson-id"
 repo="https://github.com/techknowlogick/go-mysteryperson-id.git"
 packages=[]
 url="https://github.com/techknowlogick/go-mysteryperson-id"
 name="go-mysteryperson-id"
 
-[[package]]
+[[Package]]
 path="/nobody-id"
 repo="https://github.com/techknowlogick/go-nobody-id.git"
 packages=[]
 url="https://github.com/techknowlogick/go-nobody-id"
 name="go-nobody-id"
 
-[[package]]
+[[Package]]
 path="/oauth2-xorm"
 repo="https://github.com/techknowlogick/go-oauth2-xorm.git"
 packages=[]
 url="https://github.com/techknowlogick/go-oauth2-xorm"
 name="go-oauth2-xorm"
 
-[[package]]
+[[Package]]
 path="/oauth2-gorm"
 repo="https://github.com/techknowlogick/go-oauth2-gorm.git"
 packages=[]
 url="https://github.com/techknowlogick/go-oauth2-gorm"
 name="go-oauth2-gorm"
 
-[[package]]
+[[Package]]
 path="/identicon"
 repo="https://github.com/techknowlogick/go-identicon.git"
 packages=[]
 url="https://github.com/techknowlogick/go-identicon"
 name="go-identicon"
 
-[[package]]
+[[Package]]
 path="/paypal-fee-computer"
 repo="https://github.com/techknowlogick/go-paypal-fee-computer.git"
 packages=[]
 url="https://github.com/techknowlogick/go-paypal-fee-computer"
 name="go-paypal-fee-computer"
 
-[[package]]
+[[Package]]
 path="/shiori"
 repo="https://github.com/techknowlogick/shiori.git"
 packages=["cmd","cmd/account","cmd/serve","database","model"]

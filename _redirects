@@ -1,0 +1,4 @@
+# Redirect default Netlify subdomain to primary domain
+https://src-tklk.netlify.com/* https://src.techknowlogick.com/:splat 301!
+# Redirect from HTTP->HTTPS
+http://src.techknowlogick.com/* https://src.techknowlogick.com/:splat 301!

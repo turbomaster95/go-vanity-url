@@ -1,4 +1,4 @@
-package main
+package main // import "src.techknowlogick.com/vanity-url"
 
 import (
 	"os"

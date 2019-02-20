@@ -67,3 +67,10 @@ repo="https://github.com/techknowlogick/shiori.git"
 packages=["cmd","cmd/account","cmd/serve","database","model"]
 url="https://github.com/techknowlogick/shiori"
 name="shiori"
+
+[[Package]]
+path="/vanity-url"
+repo="https://github.com/techknowlogick/go-vanity-url.git"
+packages=[]
+url="https://github.com/techknowlogick/go-vanity-url"
+name="go-vanity-url"

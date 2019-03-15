@@ -95,3 +95,11 @@ repo="https://github.com/techknowlogick/xormigrate.git"
 packages=[]
 url="https://github.com/techknowlogick/xormigrate"
 name="xormigrate"
+
+[[Package]]
+path="/xgo"
+repo="https://github.com/techknowlogick/xgo.git"
+packages=[]
+url="https://github.com/techknowlogick/xgo"
+name="xgo"
+

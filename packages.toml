@@ -103,3 +103,9 @@ packages=[]
 url="https://github.com/techknowlogick/xgo"
 name="xgo"
 
+[[Package]]
+path="/macaron-hsts"
+repo="https://github.com/techknowlogick/macaron-hsts.git"
+packages=[]
+url="https://github.com/techknowlogick/macaron-hsts"
+name="macaron-hsts"

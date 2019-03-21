@@ -3,7 +3,7 @@
 		<meta charset="utf-8">
 		<title>{{ .Path }}</title>
 		<meta name="go-import" content="{{ .Path }} git {{ .Repo }}">
-		<meta name="go-source" content="{{ .Path }} {{ .Url }} {{ .Url }}/tree/{{ if eq .Branch "" }}master{{else}}{{.Branch}}{{endif}}{/dir} {{ .Url }}/blob/{{ if eq .Branch "" }}master{{else}}{{.Branch}}{{endif}}{/dir}/{file}#L{line}">
+		<meta name="go-source" content="{{ .Path }} {{ .Url }} {{ .Url }}/tree/{{ if eq .Branch "" }}master{{else}}{{.Branch}}{{end}}{/dir} {{ .Url }}/blob/{{ if eq .Branch "" }}master{{else}}{{.Branch}}{{end}}{/dir}/{file}#L{line}">
 	</head>
 	<body>
 		<div>package: <code>{{ .Path }}</code></div>

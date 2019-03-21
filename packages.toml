@@ -64,7 +64,7 @@ name="go-paypal-fee-computer"
 [[Package]]
 path="/shiori"
 repo="https://github.com/techknowlogick/shiori.git"
-packages=["cmd","cmd/serve","database","model"]
+packages=["cmd","cmd/serve","database","database/migration","model"]
 url="https://github.com/techknowlogick/shiori"
 name="shiori"
 

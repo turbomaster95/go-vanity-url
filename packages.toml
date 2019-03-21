@@ -92,7 +92,7 @@ name="vidtron"
 [[Package]]
 path="/xormigrate"
 repo="https://github.com/techknowlogick/xormigrate.git"
-packages=[]
+packages=["log"]
 url="https://github.com/techknowlogick/xormigrate"
 name="xormigrate"
 

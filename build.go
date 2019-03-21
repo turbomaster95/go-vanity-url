@@ -20,6 +20,7 @@ type Package struct {
 	Path     string `toml:"path"`
 	Packages []string `toml:"packages"`
 	Url      string `toml:"url"`
+	Branch   string `toml:"branch"`
 }
 
 func (p Package) GetRoutes() (ret []string) {

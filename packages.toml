@@ -86,6 +86,7 @@ name="caddy-s3browser"
 path="/vidtron"
 repo="https://github.com/techknowlogick/vidtron.git"
 packages=[]
+branch="main"
 url="https://github.com/techknowlogick/vidtron"
 name="vidtron"
 

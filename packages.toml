@@ -110,3 +110,10 @@ repo="https://github.com/techknowlogick/macaron-hsts.git"
 packages=[]
 url="https://github.com/techknowlogick/macaron-hsts"
 name="macaron-hsts"
+
+[[Package]]
+path="/einvalidator"
+repo="https://github.com/techknowlogick/go-einvalidator.git"
+packages=[]
+url="https://github.com/techknowlogick/go-einvalidator"
+name="ein-validator"

@@ -117,3 +117,10 @@ repo="https://github.com/techknowlogick/go-einvalidator.git"
 packages=[]
 url="https://github.com/techknowlogick/go-einvalidator"
 name="ein-validator"
+
+[[Package]]
+path="/drone-nfpm"
+repo="https://github.com/techknowlogick/drone-nfpm.git"
+packages=[]
+url="https://github.com/techknowlogick/drone-nfpm"
+name="drone-nfpm"

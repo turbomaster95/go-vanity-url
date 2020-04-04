@@ -9,8 +9,8 @@
 		<div>package: <code>{{ .Path }}</code></div>
 		<div>source: <a href="{{ .Url }}">{{ .Url }}</a></div>
 		<div>godocs:<ul>
-			<li><a href="https://godoc.org/{{ .Path }}">{{ .Path }}</a></li>{{range .Packages}}
-			<li><a href="https://godoc.org/{{ $.Path }}/{{ . }}">{{ $.Path }}/{{ . }}</a></li>{{end}}
+			<li><a href="https://pkg.go.dev/{{ .Path }}">{{ .Path }}</a></li>{{range .Packages}}
+			<li><a href="https://pkg.go.dev/{{ $.Path }}/{{ . }}">{{ $.Path }}/{{ . }}</a></li>{{end}}
 		</ul></div>
 	</body>
 </html>

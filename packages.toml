@@ -117,3 +117,10 @@ repo="https://github.com/techknowlogick/drone-nfpm.git"
 packages=[]
 url="https://github.com/techknowlogick/drone-nfpm"
 name="drone-nfpm"
+
+[[Package]]
+path="/cups"
+repo="https://github.com/techknowlogick/cups.git"
+packages=["cmd"]
+url="https://github.com/techknowlogick/cups"
+name="cups"

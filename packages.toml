@@ -132,3 +132,10 @@ repo="https://github.com/techknowlogick/terraform-provider-gitea.git"
 packages=["gitea"]
 url="https://github.com/techknowlogick/terraform-provider-gitea"
 name="terraform-provider-gitea"
+
+[[Package]]
+path="/caddy-tlsxorm"
+repo="https://github.com/techknowlogick/caddy-tlsxorm.git"
+packages=[]
+url="https://github.com/techknowlogick/caddy-tlsxorm"
+name="storagexorm"

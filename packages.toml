@@ -76,14 +76,6 @@ url="https://github.com/techknowlogick/go-vanity-url"
 name="go-vanity-url"
 
 [[Package]]
-path="/vidtron"
-repo="https://github.com/techknowlogick/vidtron.git"
-packages=[]
-branch="main"
-url="https://github.com/techknowlogick/vidtron"
-name="vidtron"
-
-[[Package]]
 path="/xormigrate"
 repo="https://github.com/techknowlogick/xormigrate.git"
 packages=[]
@@ -112,21 +104,6 @@ url="https://github.com/techknowlogick/go-einvalidator"
 name="ein-validator"
 
 [[Package]]
-path="/drone-nfpm"
-repo="https://github.com/techknowlogick/drone-nfpm.git"
-packages=[]
-url="https://github.com/techknowlogick/drone-nfpm"
-name="drone-nfpm"
-
-[[Package]]
-path="/cups"
-repo="https://github.com/techknowlogick/cups.git"
-packages=["cmd"]
-url="https://github.com/techknowlogick/cups"
-name="cups"
-
-
-[[Package]]
 path="/terraform-provider-gitea"
 repo="https://github.com/techknowlogick/terraform-provider-gitea.git"
 packages=["gitea"]
@@ -134,8 +111,8 @@ url="https://github.com/techknowlogick/terraform-provider-gitea"
 name="terraform-provider-gitea"
 
 [[Package]]
-path="/caddy-tlsxorm"
-repo="https://github.com/techknowlogick/caddy-tlsxorm.git"
+path="/bunnycdn-middleware"
+repo="https://github.com/techknowlogick/bunnycdn-middleware.git"
 packages=[]
-url="https://github.com/techknowlogick/caddy-tlsxorm"
-name="storagexorm"
+url="https://github.com/techknowlogick/bunnycdn-middleware"
+name="bunnycdn-middleware"

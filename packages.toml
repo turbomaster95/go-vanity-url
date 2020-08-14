@@ -111,8 +111,8 @@ url="https://github.com/techknowlogick/terraform-provider-gitea"
 name="terraform-provider-gitea"
 
 [[Package]]
-path="/bunnycdn-middleware"
-repo="https://github.com/techknowlogick/bunnycdn-middleware.git"
+path="/bunnycdn-storage-middleware"
+repo="https://github.com/techknowlogick/bunnycdn-storage-middleware.git"
 packages=[]
-url="https://github.com/techknowlogick/bunnycdn-middleware"
-name="bunnycdn-middleware"
+url="https://github.com/techknowlogick/bunnycdn-storage-middleware"
+name="bunnycdn-storage-middleware"

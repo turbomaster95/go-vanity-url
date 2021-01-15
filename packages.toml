@@ -104,8 +104,8 @@ url="https://github.com/techknowlogick/go-einvalidator"
 name="ein-validator"
 
 [[Package]]
-path="/terraform-provider-gitea"
-repo="https://github.com/techknowlogick/terraform-provider-gitea.git"
-packages=["gitea"]
-url="https://github.com/techknowlogick/terraform-provider-gitea"
-name="terraform-provider-gitea"
+path="/bunnycdn"
+repo="https://github.com/techknowlogick/bunnycdn-go-sdk.git"
+packages=[]
+url="https://github.com/techknowlogick/bunnycdn-go-sdk"
+name="bunnycdn"

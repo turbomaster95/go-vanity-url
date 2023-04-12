@@ -104,8 +104,8 @@ url="https://github.com/techknowlogick/go-einvalidator"
 name="ein-validator"
 
 [[Package]]
-path="/bunnycdn"
-repo="https://github.com/techknowlogick/bunnycdn-go-sdk.git"
+path="/friendly-words-go"
+repo="https://gitea.com/techknowlogick/friendly-words-go.git"
 packages=[]
-url="https://github.com/techknowlogick/bunnycdn-go-sdk"
-name="bunnycdn"
+url="https://gitea.com/techknowlogick/friendly-words-go"
+name="friendly-words-go"

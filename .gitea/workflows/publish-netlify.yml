@@ -1,0 +1,27 @@
+name: build and publish
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  lint:
+    name: test fly
+    runs-on: fly-runner
+    steps:
+      - uses: actions/checkout@v3
+      - name: setup go
+        uses: https://github.com/actions/setup-go@v4
+        with:
+          go-version: '>=1.20.1'
+      - name: Build
+        run: go run build.go
+      - name: publish to netlify
+        uses: https://github.com/nwtgck/actions-netlify@v2.0
+        with:
+          publish-dir: public
+          production-branch: main
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

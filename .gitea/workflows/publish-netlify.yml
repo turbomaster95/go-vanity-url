@@ -17,7 +17,7 @@ jobs:
           go-version: '>=1.20.1'
       - name: Build
         run: |
-          go run build.go
+          go run build.go --domain=src.techknowlogick.com --config=packages.toml --output=public
           cp _redirects public/_redirects
       - name: publish to netlify
         uses: https://github.com/nwtgck/actions-netlify@v2.0

@@ -104,8 +104,8 @@ url="https://github.com/techknowlogick/go-einvalidator"
 name="ein-validator"
 
 [[Package]]
-path="/friendly-words-go"
+path="/friendlywords"
 repo="https://gitea.com/techknowlogick/friendly-words-go.git"
 packages=[]
 url="https://gitea.com/techknowlogick/friendly-words-go"
-name="friendly-words-go"
+name="friendlywords"

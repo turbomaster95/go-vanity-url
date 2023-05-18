@@ -19,11 +19,16 @@ jobs:
         run: |
           go run build.go --domain=src.techknowlogick.com --config=packages.toml --output=public
           cp _redirects public/_redirects
-      - name: publish to netlify
-        uses: https://github.com/nwtgck/actions-netlify@v2.0
-        with:
-          publish-dir: public
-          production-branch: main
-        env:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      - name: Deploy to BunnyCDN
+        run: |
+          apt-get update
+          apt-get install -y lftp
+          lftp -e "
+            set ftp:ssl-allow true;
+            set ftp:ssl-protect-data true;
+            set ssl:verify-certificate no;
+            open ${{ secrets.FTP_HOST }};
+            user ${{ secrets.FTP_USER }} ${{ secrets.FTP_PASS }};
+            mirror -R -v public/ .;
+            bye;
+          "
